@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080806">
+<meta name="description" content="Mundo Alitas. El sabor tiene alas. Descubre nuestros sabores y haz tu pedido.">
+<title>Mundo Alitas — El sabor tiene alas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800;900&family=Oswald:wght@400;500;600;700&family=Bodoni+Moda:opsz,wght@6..96,700;6..96,800;6..96,900&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/hero-wings-cutout.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="preloader" aria-label="Cargando Mundo Alitas">
+  <div class="preloader-mark"><img src="assets/logo.png" alt="Mundo Alitas"></div>
+  <div class="preloader-track"><span></span></div>
+  <p>PREPARANDO EL ANTOJO</p><strong class="load-number">00%</strong>
+</div>
+<header class="header" id="inicio">
+  <button class="mobile-toggle" aria-label="Abrir navegación" aria-expanded="false"><i></i><i></i></button>
+  <nav class="nav nav-a"><a href="#historia">NUESTRA HISTORIA</a><a href="#sabores">MENÚ</a></nav>
+  <a class="brand" href="#inicio" aria-label="Mundo Alitas inicio"><img src="assets/logo.png" alt="Mundo Alitas"></a>
+  <nav class="nav nav-b"><a href="#ubicacion">UBÍCANOS</a><a class="nav-order" href="#pedido">ORDENA AHORA</a></nav>
+</header>
+
+<main>
+<section class="hero" id="top">
+  <div class="hero-stage">
+    <h1 class="hero-title">
+      <span class="hero-line line-one">MUNDO</span>
+      <span class="hero-line line-two">ALITAS</span>
+    </h1>
+
+    <div class="hero-product">
+      <img src="assets/hero-wings-cutout.png"
+           alt="Alitas Mundo Alitas" fetchpriority="high" decoding="async">
+    </div>
+  </div>
+
+  <div class="hero-kickers">
+    <span>SABOR QUE<br>TE HACE VOLAR</span>
+    <span>ALITAS<br>SIN LÍMITES</span>
+  </div>
+
+  <div class="hero-bottom">
+    <a href="#pedido" class="button button-yellow">
+      ORDENA AHORA <b>›</b>
+    </a>
+  </div>
+</section>
+
+<div class="ticker ticker-yellow" aria-label="Sabor, crunch y experiencia">
+  <div class="ticker-track"><span>★ SABOR</span><i>✳</i><span>CRUNCH</span><i>✳</i><span>ACTITUD</span><i>✳</i><span>PARA COMPARTIR</span><i>✳</i><span>★ SABOR</span><i>✳</i><span>CRUNCH</span><i>✳</i><span>ACTITUD</span><i>✳</i><span>PARA COMPARTIR</span><i>✳</i></div>
+</div>
+
+<section class="origin" id="historia">
+  <div class="origin-image"><img src="assets/wings-story.jpg" alt="Primer plano de alitas glaseadas"></div>
+  <div class="origin-caption"><span class="eyebrow">ESTO ES MUNDO ALITAS</span><h2>EL ANTOJO<br>NO SE <em>NEGOCIA.</em></h2><p>Hay sabores que reúnen, momentos que se alargan y alitas que siempre piden otra ronda.</p><a href="#sabores" class="button button-black">DESCUBRE NUESTROS SABORES <b>↗</b></a></div>
+  <div class="origin-index">01 <span>—</span> HECHAS PARA DISFRUTAR</div>
+</section>
+
+<div class="ticker ticker-black"><div class="ticker-track"><span>UNA MÁS Y NOS VAMOS</span><i>★</i><span>UNA MÁS Y NOS VAMOS</span><i>★</i><span>UNA MÁS Y NOS VAMOS</span><i>★</i><span>UNA MÁS Y NOS VAMOS</span><i>★</i></div></div>
+
+<section class="story-split">
+  <div class="story-copy reveal">
+    <span class="eyebrow">BUENAS ALITAS. BUENOS MOMENTOS.</span>
+    <h2>EL SABOR<br>DE <em>JUNTARSE.</em></h2>
+    <p>Para compartir con amigos, para quitarse el antojo o para convertir cualquier día en un buen plan.</p>
+    <a class="text-link" href="#pedido">ARMA TU PLAN <b>↗</b></a>
+  </div>
+  <div class="story-visual reveal"><img src="assets/wings-order.jpg" alt="Alitas listas para disfrutar"><span class="round-stamp">MUNDO<br>ALITAS<br><b>★</b></span></div>
+</section>
+
+<section class="best-sellers" id="sabores">
+  <div class="best-head">
+    <div><span class="eyebrow">ENCUENTRA TU FAVORITA</span><h2>LAS QUE<br>SE <em>ANTOJAN.</em></h2></div>
+    <div class="carousel-controls"><button class="carousel-prev" aria-label="Deslizar sabores a la izquierda">←</button><button class="carousel-next" aria-label="Deslizar sabores a la derecha">→</button></div>
+  </div>
+  <div class="product-rail" id="productRail">
+    <article class="product-card"><div class="product-photo"><img src="assets/bbq.jpg" alt="Alitas BBQ clásicas"></div><span class="product-number">01 / CLÁSICA</span><h3>BBQ CLÁSICAS</h3><p>El clásico que siempre provoca.</p><a href="#pedido">QUIERO PROBARLAS ↗</a></article>
+    <article class="product-card"><div class="product-photo"><img src="assets/hot.jpg" alt="Alitas picantes"></div><span class="product-number">02 / INTENSA</span><h3>PICANTES FURIOSAS</h3><p>Para quienes disfrutan el fuego.</p><a href="#pedido">QUIERO PROBARLAS ↗</a></article>
+    <article class="product-card"><div class="product-photo"><img src="assets/mango.jpg" alt="Alitas mango honey"></div><span class="product-number">03 / DULCE</span><h3>MANGO HONEY</h3><p>Un contraste dulce y atrevido.</p><a href="#pedido">QUIERO PROBARLAS ↗</a></article>
+    <article class="product-card"><div class="product-photo"><img src="assets/korean.jpg" alt="Alitas BBQ coreana"></div><span class="product-number">04 / ESPECIAL</span><h3>BBQ COREANA</h3><p>Un giro lleno de personalidad.</p><a href="#pedido">QUIERO PROBARLAS ↗</a></article>
+  </div>
+  <p class="disclaimer">Sabores e imágenes de referencia. Confirmar carta, ingredientes y disponibilidad antes de publicar.</p>
+</section>
+
+<section class="manifesto" id="experiencia">
+  <div class="manifesto-top"><span class="eyebrow">NO ES SOLO COMER</span><span class="manifesto-mark">★</span></div>
+  <h2>ES TODO<br>UN <em>PLAN.</em></h2>
+  <div class="manifesto-bottom"><p>Una mesa, buena compañía<br>y algo que siempre se comparte.</p><a href="#pedido" class="button button-yellow">VAMOS POR ALITAS <b>↗</b></a></div>
+  <div class="manifesto-orbit">MUNDO ALITAS · MUNDO ALITAS ·</div>
+</section>
+
+<section class="values">
+  <div class="value-item"><span class="value-symbol">✳</span><p>BUEN SABOR<br><b>EN CADA BOCADO</b></p></div>
+  <div class="value-item"><span class="value-symbol">↗</span><p>PLANES QUE<br><b>SE DISFRUTAN</b></p></div>
+  <div class="value-item"><span class="value-symbol">★</span><p>ANTOJOS QUE<br><b>SE REPITEN</b></p></div>
+</section>
+
+<section class="order-section" id="pedido">
+  <div class="order-photo"><img src="assets/hero-wings.jpg" alt="Alitas Mundo Alitas"></div>
+  <div class="order-copy">
+    <span class="eyebrow">¿YA SE TE ANTOJARON?</span>
+    <h2>NO LO<br>PIENSES<br><em>MUCHO.</em></h2>
+    <p>Tu próxima ronda empieza aquí.</p>
+    <a class="button button-yellow" id="whatsappLink" href="https://wa.me/570000000000" target="_blank" rel="noopener">HAZ TU PEDIDO <b>↗</b></a>
+    <small>El enlace de WhatsApp debe configurarse con el número del negocio.</small>
+  </div>
+</section>
+
+<section class="find-us" id="ubicacion">
+  <span class="eyebrow">EL MUNDO DE LAS ALITAS</span><h2>¿NOS<br><em>VEMOS?</em></h2>
+  <p>Pronto podrás encontrarnos aquí. Agrega la dirección y horarios de tu sede.</p>
+  <a href="#contacto" class="button button-black">VER UBICACIÓN <b>↗</b></a>
+</section>
+</main>
+
+<footer id="contacto">
+  <div class="footer-main"><a class="footer-logo" href="#inicio"><img src="assets/logo.png" alt="Mundo Alitas"></a><p>EL SABOR<br><em>TIENE ALAS.</em></p><div class="footer-nav"><a href="#sabores">SABORES</a><a href="#historia">NOSOTROS</a><a href="#pedido">PEDIDOS</a><a href="#ubicacion">UBICACIÓN</a></div></div>
+  <div class="footer-bottom"><span>© <span id="year"></span> MUNDO ALITAS</span><span>HECHO PARA DISFRUTAR. ★</span><a href="#inicio">VOLVER ARRIBA ↑</a></div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body></html>
