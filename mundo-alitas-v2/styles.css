@@ -1676,4 +1676,14 @@ html {
   .hero-kickers span::after{margin-top:10px!important;max-width:90px!important}
   .hero-bottom{top:calc(78px + 38vw + 78px)!important;bottom:auto!important}
   .hero-bottom .button{min-width:220px!important;min-height:54px!important;font-size:17px!important}
+
+  /* Portada más alta: el texto queda centrado y la lluvia lo envuelve */
+  .hero{height:calc(100svh - 100px)!important;min-height:560px!important;--ht:max(56px,calc((100svh - 254px - 38vw) / 2))}
+  .hero-title{top:var(--ht)!important}
+  .hero-kickers{top:calc(var(--ht) + 38vw + 22px)!important}
+  .hero-bottom{top:calc(var(--ht) + 38vw + 100px)!important;bottom:auto!important}
+  .hero-bottom .button{min-height:58px!important}
+
+  /* Fotos de Lugar: sin paradas al deslizar */
+  .lugar-gallery{scroll-snap-type:none!important;overscroll-behavior-x:contain}
 }
